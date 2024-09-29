@@ -117,11 +117,8 @@ When you access the Grafana UI, you would appreciate the different components.
 
 ## Hope you got it!
 
-## DevOps Training at Merciboi Systems Solutions
-## info@merciboi.com; register@merciboi.com
-## www.merciboi.com/training
+## Prometheus, Alert Manager, Email Notification & Grafana in Kubernetes Monitoring | Merciboi
+## https://www.youtube.com/watch?v=TyBsKMTDl1Q
+## 
 
-# Merciboi Systems Solutions
-# Canada
-# info@merciboi.com
-# www.merciboi.com; www.merciboi.ca
+
