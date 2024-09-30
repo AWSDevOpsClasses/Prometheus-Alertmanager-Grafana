@@ -20,10 +20,20 @@ helm repo update
 To search the repository, run:
 ```bash
 helm search repo prometheus-community
+prometheus-community/prometheus   [ 25.27.0         v2.54.1 ]
 ```
 ## b. Install Prometheus
 ```bash
 helm install [RELEASE_NAME] prometheus-community/prometheus -f prometheus.yaml
+helm show values prometheus-community/prometheus > C:\Users\bramh\OneDrive\Desktop\Prometheus-Alertmanager-Grafana\prometheus-community.yaml
+===================================================================================
+[ Kube 100 ] Getting started with Grafana Loki in Kubernetes
+https://www.youtube.com/watch?v=UM8NiQLZ4K0
+=========================================================================================
+helm install prometheus prometheus-community/prometheus -f prometheus.yaml --namespace monitoring
+helm install prometheus prometheus-community/prometheus --values C:\Users\bramh\OneDrive\Desktop\Prometheus-Alertmanager-Grafana\prometheus-community.yaml --namespace monitoring
+helm delete prometheus --purge --namespace monitoring
+helm create demochart
 ```
 The command above would do the following:
   * Install Prometheus-Server, Alert Manager, Kube-State-Metrics, Node-Exporter and PushGateway
